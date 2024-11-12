@@ -1,0 +1,44 @@
+body{
+    font-family: arial;
+    background: #b2bec3;
+    padding:0;
+    margin: 0;
+  }
+  #main{
+    width: 800px;
+    margin: 0 auto;
+    background: white;
+    font-size: 19px;
+  }
+  #header{
+    background: #756b55;
+  }
+  h1{
+    float: left;
+    margin: 15px;
+     
+  }
+  #table-data{
+    padding: 15px;
+    height: auto;
+    vertical-align: top;
+  }
+  #table-data th{
+    background: #74b9ff;
+  }
+  #table-data tr:nth-child(odd){
+    background: #ecf0f1;
+  }
+  #pagination a{
+    
+    background: red;
+    color: white;
+    padding: 8px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    list-style: none;
+    cursor: pointer;
+
+  }
+   
